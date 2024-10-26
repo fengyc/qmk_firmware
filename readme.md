@@ -6,6 +6,8 @@
 [![GitHub contributors](https://img.shields.io/github/contributors/qmk/qmk_firmware.svg)](https://github.com/qmk/qmk_firmware/pulse/monthly)
 [![GitHub forks](https://img.shields.io/github/forks/qmk/qmk_firmware.svg?style=social&label=Fork)](https://github.com/qmk/qmk_firmware/)
 
+This is a fork of the keychron qmk repository. A new keymap `mac-dev` is created for k3 max, exchanges F1-F12 of layer 0 with layer 1, so F1-F12 will be the default functions, see [readme.txt](/keyboards/keychron/k3_max/readme.md).
+
 This is a keyboard firmware based on the [tmk\_keyboard firmware](https://github.com/tmk/tmk_keyboard) with some useful features for Atmel AVR and ARM controllers, and more specifically, the [OLKB product line](https://olkb.com), the [ErgoDox EZ](https://ergodox-ez.com) keyboard, and the Clueboard product line.
 
 ## Documentation
