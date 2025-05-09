@@ -20,15 +20,8 @@
 /* RGB Matrix driver configuration */
 #    define DRIVER_COUNT 2
 #    define RGB_MATRIX_LED_COUNT 109
-
-#    define SPI_SCK_PIN A5
-#    define SPI_MISO_PIN A6
-#    define SPI_MOSI_PIN A7
-
 #    define DRIVER_CS_PINS \
         { B8, B9 }
-#    define SNLED23751_SPI_DIVISOR 16
-#    define SPI_DRIVER SPID1
 
 /* Set LED driver current */
 #    define SNLED27351_CURRENT_TUNE \

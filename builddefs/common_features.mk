@@ -625,6 +625,7 @@ ifeq ($(strip $(VIA_ENABLE)), yes)
     RAW_ENABLE := yes
     BOOTMAGIC_ENABLE := yes
     TRI_LAYER_ENABLE := yes
+    SEND_STRING_ENABLE := yes
 endif
 
 VALID_MAGIC_TYPES := yes

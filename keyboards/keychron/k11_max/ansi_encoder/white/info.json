@@ -4,16 +4,7 @@
         "device_version": "1.0.0"
     },
     "features": {
-        "led_matrix": true,
-        "encoder": true
-    },
-    "encoder": {
-        "rotary": [
-            {
-                "pin_a": "A8",
-                "pin_b": "C9"
-            }
-        ]
+        "led_matrix": true
     },
     "led_matrix": {
         "driver": "snled27351_spi",

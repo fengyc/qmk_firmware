@@ -1,6 +1,6 @@
 {
     "usb": {
-        "pid": "0x0ABA",
+        "pid": "0x0ABB",
         "device_version": "1.0.0"
     },
     "features": {
@@ -8,7 +8,6 @@
     },
     "led_matrix": {
         "driver": "snled27351_spi",
-        "sleep": true,
         "animations": {
             "none": true,
             "solid": true,
